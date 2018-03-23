@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+html,body,div,p,a,img,form{
+	margin:0;
+	padding:0;
+}
+body {
+    color: #555;
+	font-size: 15px;
+	line-height: 1.7;
+	font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+	background: #f7fafc;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+.header{
+	height:50px;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#FFFFFF;
+	z-index:999;
+} 
+.navbar{
+	height:50px;
+	border:none;
+	border-bottom: 1px solid rgba(30,35,42,.06);
+	box-shadow:0 1px 3px 0 rgba(0,34,77,.05);
+} 
+.navbar-default{
+	background-color:#FFFFFF;
+}
+a:focus{
+	outline:none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color:#4C9ED9;
+}
+
+p.navbar-text{
+	margin:0;
+	padding:0;
+	width:660px;
+	margin-left:260px;
+	height:50px;
+	line-height:50px;
+	font-size: 16px;
+	letter-spacing:1px;
+}
+.navbar-title-container span{
+	color:#696969;
+}
+
+/*分类上传按钮*/
+.navbar-right ~ .navbar-right{
+	margin-right:20px;
+	color:#ccc;
+}
+.navbar-nav span{
+	margin:0 10px;
+}
+/* 主体部分 */
+.main-wrap{
+	width:100%;
+	background:#ffffff;
+}
+.dropdown-menu{
+	width:120px;
+}
+.main > input.main-head{
+	border:1px solid #CCCCCC; 
+	width:100%;
+	height:40px;
+	padding:8px 12px;
+	font-size:18px;
+	font-weight:500;
+	margin-bottom:20px;
+}
+.main{
+	padding:80px 0 20px 0;
+	width:660px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
